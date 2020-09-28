@@ -1,0 +1,59 @@
+Paint Tools Tutorial:
+
+1) No Tool:
+Shortcut: ALT + N
+Usage: Deactivates all tools.
+
+2) Eraser:
+Shortcut: ALT + 1
+Usage: To erase parts of canvas. 
+Notes: Size of eraser controlled by size box on left of menu
+
+3) Selection:
+Notes: Currently deactivated, in testing
+
+4) Free Draw:
+Shortcut: ALT + F
+Usage: Freely draw any lines on canvas, no constraints
+Notes: Color / size controlled by menu
+
+5) Line:
+Shortcut: ALT + L 
+Usage: Used to draw straight lines on canvas, click and drag
+Notes: Color / size controlled by menu
+
+6) Square:
+Shortcut: ALT + S
+Notes: Still not fully developed, behaves like a rectangle
+
+7) Rectangle:
+Shortcut: ALT + R
+Usage: To draw rectangles on canvas, click and drag
+Notes: Color determined by menu, fill determined by "Fill" option on top menu bar
+
+8) Circle:
+Shortcut: ALT + C
+Usage: To draw perfect circles on canvas, click and drag
+Notes: Color determined by menu, fill determined by "Fill" option on top menu bar
+
+9) Ellipse: 
+Shortcut: ALT + E
+Usage: To draw ellipses on canvas, click and drag
+Notes: Color determined by menu, fill determined by "Fill" option on top menu bar
+
+10) Triangle:
+Shortcut: ALT + T
+Usage: To draw right triangle on canvas, click and drag
+Notes: Color determined by menu, fill determined by "Fill" option on top menu bar
+
+11) Polygon:
+Shortcut: ALT + P
+Usage: To draw polygons on canvas, click and drag in shape you want.
+Notes: To get designated number of lines, drag # of lines - 1. Color determined by menu,
+fill determined by "Fill" option on top menu bar.
+
+12) Text Box: 
+Shortcut: ALT + B
+Usage: To put text on canvas. Click area of canvas, type text into line, press insert.
+
+

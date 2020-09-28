@@ -1,0 +1,140 @@
+Logan Novak's Paint Version 5.0.0 09/27/2020
+
+New Features:
+*General Tests and Javadoc Commenting 
+*Added warning when attempting to "save as" a file that already has a defined file type
+
+Known Issues:
+*cannot scroll through all of canvas if zoomed (only part of it)
+*free draw on canvas slows down program when placing shapes
+*no specific file type selected when doing save as
+*when using undo, redo button, and drawing shapes, elements revert to current brush size instead of their regular brush size
+*eraser is not hooked to undo or redo
+
+Expected Next Sprint:
+*autosave every once in a while
+*ability to select a piece of canvas and move it
+*fix brush size bug
+*file type selected when using save as
+*ability to have multiple tabs
+
+Links:
+Youtube: https://youtu.be/16JVhbsctpM
+Github: https://github.com/lnovak3/PaintV5
+------------------------------------------------------------------
+Logan Novak's Paint Version 4.0.0 09/21/2020
+
+New Features:
+*can now see shape as it is being drawn
+*added basic ability to add text to image
+*added an eraser tool
+*current selected tool is now displayed in bottom left of screen
+*can now draw a triangle
+*updated undo button in order to prevent incorrect overlapping
+*added a redo button
+*added patch notes to help menu
+*added tools tutorial to help menu
+*can now draw a polygon of any amount of sides
+
+Known Issues:
+*cannot scroll through all of canvas if zoomed (only part of it)
+*free draw on canvas slows down program when placing shapes
+*no specific file type selected when doing save as
+*when using undo, redo button, and drawing shapes, elements revert to current brush size instead of their regular brush size
+*eraser is not hooked to undo or redo
+
+Expected Next Sprint:
+*autosave every once in a while
+*ability to select a piece of canvas and move it
+*fix brush size bug
+*file type selected when using save as
+
+Links:
+Demo:https://youtu.be/sMemUmAq4W0
+Github: https://github.com/lnovak3/PaintV4
+
+------------------------------------------------------------------
+Logan Novak's Paint Version 3.0.0 - 09/11/2020
+
+New Features:
+*updated top menu bar to include 'Action', 'Tools', and 'Fill'
+*added ability to zoom in and out of canvas using slider
+*added ability to resize canvas
+*added straight line, circle, square, rectangle, and elliptic tools
+*set free draw as default tool
+*added ability to make shapes filled or transparent
+*added undo button
+*added keyboard shortcuts for all menu items
+*width and color selection now work for all tools
+*added "smart save" 
+*can now open and save using *jpeg, alongside *jpg and *png
+*color is described on color button if a normal color, otherwise hex value
+
+Known Issues:
+*when using undo button, some elements may incorrectly overlap
+*when resizing canvas, it does not rescale pictures inside it
+*cannot scroll through all of canvas if zoomed (only part of it)
+*no specific file type selected when doing save as
+*when using undo button, elements revert to current brush size instead of their regular brush size
+
+Expected Next Sprint:
+*autoselect file when saving
+*redo button
+*more shapes
+*improved zoom function
+*updated about menu
+*possible overhaul of toolbar
+
+Links:
+Demo: https://www.youtube.com/watch?v=fOGOHsNVcmA&feature=youtu.be
+GitHub: https://github.com/lnovak3/PaintV3
+
+-----------------------------------------------------------------
+
+Logan Novak's Paint Version 2.0.0 - 09/04/2020
+
+New Features:
+*added ability to draw on canvas
+*added save button
+*added scroll bars
+*canvas resizes to fit image
+*added control for width of line
+*added color chooser
+*added menu named help
+*added about button under help
+
+Known Issues:
+*width of line does not work
+*color chooser does not work
+*.png or .jpg not autoselected when saving
+
+Expected Next Sprint:
+*adjust width of line and set a maximum and minimum
+*adjust color
+*autoselected file type when saving
+*ability for user to resize canvas
+
+Links:
+Demo: https://www.youtube.com/watch?v=gcLZx4cgL3A&feature=youtu.be
+
+------------------------------------------------------------------
+
+Logan Novak's Paint Version 1.0.0 - 08/28/2020
+
+New Features:
+*added ability to open .png or .jpg
+*added ability to save current screen
+*added button to exit
+*added menu named "File"
+*added menu bar
+
+Known Issues:
+*.png or .jpg not autoselected when saving
+
+Expected Next Sprint:
+*ability to draw on canvas
+*ability to write over a saved file
+*ability to have screen sized to image
+
+Links:
+Demo: https://www.youtube.com/watch?v=gC9jIiea-ZE&feature=youtu.be

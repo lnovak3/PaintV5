@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.canvas.*?>
+<?import paint.ResizableCanvas?>
+
+<BorderPane
+    id="borderPane" 
+    prefHeight="600" 
+    prefWidth="1000" 
+    xmlns:fx="http://javafx.com/fxml" 
+    fx:controller="paint.Controller">
+    
+    <top>
+        <VBox> 
+            <MenuBar>
+                <Menu fx:id="fileFxml" text="File"> 
+                    <MenuItem fx:id="open" text = "Open" onAction="#onOpen"/>
+                    <MenuItem fx:id="saveAs" text = "Save As" onAction="#onSaveAs"/>
+                    <MenuItem fx:id="save" text = "Save" onAction="#onSave"/>
+                    <MenuItem fx:id="quit" text = "Quit" onAction="#onExit"/>
+                </Menu>
+                
+                <Menu text = "Action">
+                    <MenuItem fx:id="undo" text = "Undo" onAction="#onUndo"/>
+                    <MenuItem fx:id="redo" text = "Redo" onAction="#onRedo"/>
+                    <MenuItem fx:id = "resize" text = "Resize" onAction="#onResize"/>
+                    
+                </Menu>
+                
+                <Menu text = "Tools">
+                    <MenuItem fx:id = "noTool" text = "No Tool" onAction="#onNoTool"/>
+                    <MenuItem fx:id = "eraser" text = "Eraser" onAction="#onEraser"/>
+                    <MenuItem fx:id = "selection" text = "Selection" onAction="#onSelection"/>
+                    <MenuItem fx:id="fDraw" text = "Free Draw" onAction="#onFreeDraw"/> 
+                    <MenuItem fx:id="lDraw" text = "Line" onAction="#onLine"/> 
+                    <MenuItem fx:id="sDraw" text = "Square" onAction="#onRectangle"/> 
+                    <MenuItem fx:id="rDraw" text = "Rectangle" onAction="#onRectangle"/>
+                    <MenuItem fx:id="cDraw" text = "Circle" onAction="#onCircle"/>
+                    <MenuItem fx:id="eDraw" text = "Ellipse" onAction="#onEllipse"/>
+                    <MenuItem fx:id="triDraw" text = "Triangle" onAction="#onTriangle"/>
+                    <MenuItem fx:id="polygon" text = "Polygon" onAction="#onPolygon"/>
+                    <MenuItem fx:id="tDraw" text = "Text Box" onAction="#onTextBox"/>
+                </Menu>
+                <Menu text="Fill"> 
+                    <MenuItem fx:id="filled" text="Filled" onAction="#onFill"/>
+                    <MenuItem fx:id="transparent" text="Transparent" onAction="#onTransparent"/>
+                </Menu>
+                
+                <Menu fx:id="help" text="Help">
+                    <MenuItem fx:id="about" text = "About" onAction="#onAbout"/>
+                </Menu>
+            </MenuBar>
+            
+            <ToolBar>
+                <TextField fx:id="brushSize" text="5" />
+                <ColorPicker fx:id="colorPicker" />
+               
+                
+            </ToolBar>
+            
+
+        </VBox>
+        
+    </top>
+    
+
+    <center>       
+         
+        <ScrollPane id="scrollPane">
+            <ResizableCanvas
+                fx:id="canvas"
+                width="1000"
+                height="600"
+                layoutX="0"
+            />
+            
+        </ScrollPane>
+    </center>
+    
+    <bottom>
+        <ToolBar>
+            <Label fx:id="currentTool" />
+            <Pane HBox.hgrow = "ALWAYS"/>
+            <Slider fx:id="slider" blockIncrement="0.1" 
+                    majorTickUnit="0.5" max="2.0" 
+                    minorTickCount="1" showTickLabels="true" 
+                    showTickMarks="true"/>
+        </ToolBar>
+    </bottom>
+        
+</BorderPane>
